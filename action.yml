@@ -11,7 +11,7 @@ inputs:
   email: 
     description: The commiter's email address
     required: true
-    default: ${{ github.actor}}@localhist
+    default: ${{ github.actor }}@localhist
   name:
     description: The commiter's name
     required: true
